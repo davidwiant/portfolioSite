@@ -1,3 +1,9 @@
+@media screen and (max-width: 550px) {
+    header {
+        flex-direction: column;
+    }
+}
+
 * {
     font-family: sans-serif;
 }
@@ -8,17 +14,20 @@ body {
     margin: 0 auto;
     max-width: 900px;
     padding: 0 16px;
+    background-color: #85dcb0;
 }
 
 header {
-    background-color: lightgray;
+    background-color: #E8A87C;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 header h1 {
     margin: auto;
     font-size: 2em;
+    
 }
 
 header ul {
@@ -32,7 +41,7 @@ header li {
 
 h2 {
     font-size: 1.5em;
-    background-color: darkkhaki;
+    background-color: #C38D9E;
     padding: 0.5em;
 }
 
