@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea92b0a97c.js" crossorigin="anonymous"></script>
+    <title>David Wiant Portfolio Site</title>
+</head>
+<body>
+    <header>
+        
+            <h1>David Wiant's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main>
+        <section id="about_me">
+            <h2>About Me</h2>
+            <p>Hi, my name is David.  I started learning to code in 2022 with the goal of becoming a full-stack web developer.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Below are some of the projects I've created so far.  Click each one to learn more.</p>
+            <div class="project">
+                <h3 class="collapsible">Message Generator</h3>
+                <div class="project_details">
+                    <img src="./MessageGeneratorScreenshot.JPG" alt="screenshot of message generator terminal">
+                    <p>This random message generator used JavaScript running locally via Node.  It uses arrays to create a mad-lib style randomly generated message.  In this case, they are "Why did the chicken cross the road" style jokes.  It can be accessed <a href="https://github.com/davidwiant/MessageGenerator">here</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="collapsible">CSS Cheat Sheet</h3>
+                <div class="project_details">
+                    <img src="./cssCheatSheetScreenshot.JPG" alt="screenshot of css cheat sheet website">
+                    <p>This CSS Cheat Sheet was created to help me with the CSS position property.  It can be accessed <a href="https://github.com/davidwiant/CSS_Cheat_Sheet">here</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>I am proficient in several areas and gaining more experience every day.</p>
+            <div id="skillbox">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'd love to hear from you.</p>
+            <div id="contact_container">
+                <a href="mailto:david.wiant@gmail.com">Send me an email</a>
+                <p>217-555-0685</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for reviewing my portfolio.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

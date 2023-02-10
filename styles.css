@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 16px;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: auto;
+    font-size: 2em;
+}
+
+header ul {
+    display:flex;
+}
+
+header li {
+    margin: 1em;
+    list-style: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: darkkhaki;
+    padding: 0.5em;
+}
+
+section div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#skills div i {
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+.project_details {
+    display: none;
+}
